@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "poetry"
+version = "0.1.0"
+description = ""
+authors = ["GithubRedMouth <90645738+GithubRedMouth@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.2.1"
+selene = "^2.0.0b16"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.16.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
